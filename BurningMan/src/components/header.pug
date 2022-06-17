@@ -1,0 +1,14 @@
+.head
+    .header-logo(class="h-el")
+        img(src="./src/image/logo.svg", alt="", srcset="")
+    nav.header-nav
+        ul.header-list
+            each name in ['HOME', 'ABOUT', 'TICKETS', 'CONTACTS']
+                li.header-list__item(class="h-el") 
+                    a(href="#")= name 
+    .header-contact(class="h-el") 
+        a(href="tel:+18938392364") +1 893 839-23-64
+    .header-burger(class="h-el") 
+        span.burger-line 
+        span.burger-line 
+        span.burger-line
